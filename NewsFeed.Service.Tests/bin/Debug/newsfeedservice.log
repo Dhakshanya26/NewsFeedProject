@@ -1,0 +1,74 @@
+2018-05-27 02:41:17,234 [17] ERROR NewsFeed.Service.Helper.LogManager - Unexpected error occured on calling GetRssFeed in Feedservice
+System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at NewsFeed.Service.Services.FeedService.GetRssFeed() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.Service\Services\FeedService.cs:line 34
+2018-05-27 02:42:41,752 [18] ERROR NewsFeed.Service.Helper.LogManager - Unexpected error occured on calling GetRssFeed in Feedservice
+System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at NewsFeed.Service.Services.FeedService.GetRssFeed() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.Service\Services\FeedService.cs:line 34
+2018-05-27 02:47:05,157 [17] ERROR NewsFeed.Service.Helper.LogManager - Unexpected error occured on calling GetRssFeed in Feedservice
+System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at NewsFeed.Service.Services.FeedService.GetRssFeed() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.Service\Services\FeedService.cs:line 34
+2018-05-27 02:56:02,401 [17] ERROR NewsFeed.Service.Helper.LogManager - Unexpected error occured on calling GetRssFeed in Feedservice
+System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at NewsFeed.Service.Services.FeedService.GetRssFeed() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.Service\Services\FeedService.cs:line 34
+2018-05-27 02:57:28,186 [17] ERROR NewsFeed.Service.Helper.LogManager - Unexpected error occured on calling GetRssFeed in Feedservice
+System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at NewsFeed.Service.Services.FeedService.GetRssFeed() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.Service\Services\FeedService.cs:line 34
+2018-05-27 02:57:28,203 [17] ERROR NewsFeed.Service.Helper.LogManager - Unexpected error occured on calling GetRssFeed in Feedservice
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at Moq.MethodCall.Execute(Invocation invocation) in C:\projects\moq4\Source\MethodCall.cs:line 315
+   at Moq.MethodCallReturn`2.Execute(Invocation invocation) in C:\projects\moq4\Source\MethodCallReturn.cs:line 245
+   at Moq.FindAndExecuteMatchingSetup.Handle(Invocation invocation, Mock mock) in C:\projects\moq4\Source\Interception\InterceptionAspects.cs:line 163
+   at Moq.Mock.Moq.IInterceptor.Intercept(Invocation invocation) in C:\projects\moq4\Source\Interception\Mock.cs:line 58
+   at Moq.CastleProxyFactory.Interceptor.Intercept(IInvocation invocation) in C:\projects\moq4\Source\ProxyFactories\CastleProxyFactory.cs:line 176
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IWebClientServiceProxy.DownloadString(String uri)
+   at NewsFeed.Service.Services.FeedService.GetRssFeed() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.Service\Services\FeedService.cs:line 33
+2018-05-27 02:57:57,621 [12] ERROR NewsFeed.Service.Helper.LogManager - Unexpected error occured on calling GetRssFeed in Feedservice
+System.ArgumentException: Value does not fall within the expected range.
+   at Moq.MethodCall.Execute(Invocation invocation) in C:\projects\moq4\Source\MethodCall.cs:line 315
+   at Moq.MethodCallReturn`2.Execute(Invocation invocation) in C:\projects\moq4\Source\MethodCallReturn.cs:line 245
+   at Moq.FindAndExecuteMatchingSetup.Handle(Invocation invocation, Mock mock) in C:\projects\moq4\Source\Interception\InterceptionAspects.cs:line 163
+   at Moq.Mock.Moq.IInterceptor.Intercept(Invocation invocation) in C:\projects\moq4\Source\Interception\Mock.cs:line 58
+   at Moq.CastleProxyFactory.Interceptor.Intercept(IInvocation invocation) in C:\projects\moq4\Source\ProxyFactories\CastleProxyFactory.cs:line 176
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IWebClientServiceProxy.DownloadString(String uri)
+   at NewsFeed.Service.Services.FeedService.GetRssFeed() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.Service\Services\FeedService.cs:line 33
+2018-05-27 02:58:40,618 [12] ERROR NewsFeed.Service.Helper.LogManager - Unexpected error occured on calling GetRssFeed in Feedservice
+System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at NewsFeed.Service.Services.FeedService.GetRssFeed() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.Service\Services\FeedService.cs:line 34

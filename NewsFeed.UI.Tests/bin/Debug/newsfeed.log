@@ -1,0 +1,125 @@
+2018-05-26 23:48:31,222 [19] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__1.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 34
+2018-05-26 23:48:47,099 [12] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__1.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 34
+2018-05-26 23:53:28,254 [7] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:54200
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__1.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 37
+2018-05-26 23:54:06,259 [5] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:54200
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__1.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 37
+2018-05-27 00:43:38,762 [12] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.ArgumentNullException: Value cannot be null.
+Parameter name: content
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, IEnumerable`1 formatters)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content)
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 42
+2018-05-27 01:10:56,518 [17] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 01:14:42,769 [18] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: Handler did not return a response message.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 39
+2018-05-27 01:15:09,538 [10] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 01:15:09,559 [17] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: Handler did not return a response message.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 39
+2018-05-27 01:16:50,907 [13] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: Handler did not return a response message.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 39
+2018-05-27 01:16:51,799 [10] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 01:37:00,917 [13] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: Handler did not return a response message.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 39
+2018-05-27 01:37:00,938 [9] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 01:38:11,557 [12] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in NewsFeedManager
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NewsFeed.UI.Manager.NewsFeedManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\NewsFeedManager.cs:line 30
+2018-05-27 01:47:08,464 [8] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 01:47:08,483 [17] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: Handler did not return a response message.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 39
+2018-05-27 01:47:08,744 [17] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in NewsFeedManager
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NewsFeed.UI.Manager.NewsFeedManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\NewsFeedManager.cs:line 30
+2018-05-27 01:48:59,939 [10] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 01:48:59,956 [17] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: Handler did not return a response message.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 39
+2018-05-27 01:49:00,224 [17] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in NewsFeedManager
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NewsFeed.UI.Manager.NewsFeedManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\NewsFeedManager.cs:line 30
+2018-05-27 02:25:10,166 [12] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: Handler did not return a response message.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 39
+2018-05-27 02:25:10,198 [10] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 02:25:10,200 [12] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in NewsFeedManager
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NewsFeed.UI.Manager.NewsFeedManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\NewsFeedManager.cs:line 30
+2018-05-27 02:25:32,244 [12] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: Handler did not return a response message.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 39
+2018-05-27 02:25:32,288 [8] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 02:25:32,290 [12] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in NewsFeedManager
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NewsFeed.UI.Manager.NewsFeedManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\NewsFeedManager.cs:line 30
+2018-05-27 02:58:39,706 [12] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: Handler did not return a response message.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 39
+2018-05-27 02:58:39,729 [10] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 02:58:39,731 [12] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in NewsFeedManager
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NewsFeed.UI.Manager.NewsFeedManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\NewsFeedManager.cs:line 30

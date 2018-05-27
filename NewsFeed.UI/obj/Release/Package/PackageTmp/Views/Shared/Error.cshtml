@@ -1,0 +1,90 @@
+﻿
+
+@model  NewsFeed.UI.Models.RssFeedViewModel
+@{
+    ViewBag.Title = "News articles";
+}
+@Styles.Render("~/newFeedStylebundle")
+<style>
+</style>
+<div class="row">
+
+
+    @if (Model.Feeds != null)
+    {
+        <div class="col-lg-12">
+            <h2>Latest news @(Model.Feeds.Count) available</h2>
+        </div>
+        <div id="page-data">
+            <ul class="new-item-list">
+                @{
+                    var count = 0;
+                }
+                @foreach (var item in Model.Feeds)
+
+                {
+
+                    //http://cors.now.sh/
+                    <li class="new-item col-lg-3 col-md-4 col-sm-6 col-xm-12">
+                        <a data-toggle="modal" class="linkbtn" href="#" url="https://cors.now.sh/@(item.Link)" data-target="#myModal" title="@item.Title ">
+
+                            <img src="@item.ThumbnailUrl" alt="@item.Title" />
+                            <h5>@item.Title</h5>
+                        </a>
+                        <p> @item.Description</p>
+                        <p>@item.PubDate</p>
+                    </li>
+                    count++;
+                }
+            </ul>
+
+        </div>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="loader"></div>
+                        <iframe id="my-iframe" style="overflow:hidden;height:100%;width:100%;border-width: 0;" height="100%" width="100%"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    }
+
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        jQuery.support.cors = true;
+        $(function () {
+
+            $('a.linkbtn').on('click', function (e) {
+                e.preventDefault();
+
+                var title = $(this).attr('title');
+                $('.modal-title').html(title);
+                $('.modal-body .loader').css({ display: 'block' });
+                var iframe = $('#my-iframe')[0],
+                    iframedoc = iframe.contentDocument || iframe.contentWindow.document;
+
+                var url = $(this).attr('url');
+                iframedoc.body.innerHTML = "";
+                $.get(url, function (response) {
+
+                    iframedoc.body.innerHTML = response;
+                    //hideLoader();
+                });
+            });
+        });
+        function hideLoader() {
+            $('.modal-body .loader').css({ display: 'none' });
+        }
+    </script>
+}

@@ -1,0 +1,45 @@
+2018-05-26 11:43:09,759 [5] ERROR NewsFeed.UI.Controllers.NewsController - Error trying to do something
+2018-05-26 12:08:46,255 [5] INFO NewsFeed.UI.UnityConfig - The 'api/getrssfeeds' IsSuccessStatusCode is not ok in HttpClientManager
+2018-05-26 12:09:20,058 [5] INFO NewsFeed.UI.UnityConfig - The 'api/getrssfeeds' IsSuccessStatusCode is not ok in HttpClientManager
+2018-05-26 12:10:23,887 [7] INFO NewsFeed.UI.UnityConfig - The 'api/getrssfeeds' IsSuccessStatusCode is not ok in HttpClientManager
+2018-05-26 20:12:59,215 [7] INFO NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling API service in HttpClientManager
+2018-05-26 20:13:55,308 [7] INFO NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling API service in HttpClientManager
+2018-05-26 20:16:36,673 [7] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-26 20:17:10,558 [7] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-26 20:17:12,818 [7] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-26 20:17:24,865 [7] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-26 20:17:26,990 [7] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-26 20:17:48,753 [14] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-26 20:18:20,043 [7] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-26 20:19:03,975 [7] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 02:10:13,382 [11] INFO NewsFeed.UI.Manager.LogManager - Sorry, it looks like the Rss feed service is not working.
+2018-05-27 02:11:36,925 [11] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: This instance has already started one or more requests. Properties can only be modified before sending the first request.
+   at System.Net.Http.HttpClient.CheckDisposedOrStarted()
+   at System.Net.Http.HttpClient.set_BaseAddress(Uri value)
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 36
+2018-05-27 02:11:44,605 [12] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: This instance has already started one or more requests. Properties can only be modified before sending the first request.
+   at System.Net.Http.HttpClient.CheckDisposedOrStarted()
+   at System.Net.Http.HttpClient.set_BaseAddress(Uri value)
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 36
+2018-05-27 02:11:45,914 [14] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: This instance has already started one or more requests. Properties can only be modified before sending the first request.
+   at System.Net.Http.HttpClient.CheckDisposedOrStarted()
+   at System.Net.Http.HttpClient.set_BaseAddress(Uri value)
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 36
+2018-05-27 02:11:58,506 [14] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: This instance has already started one or more requests. Properties can only be modified before sending the first request.
+   at System.Net.Http.HttpClient.CheckDisposedOrStarted()
+   at System.Net.Http.HttpClient.set_BaseAddress(Uri value)
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 36
+2018-05-27 02:12:25,523 [11] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: This instance has already started one or more requests. Properties can only be modified before sending the first request.
+   at System.Net.Http.HttpClient.CheckDisposedOrStarted()
+   at System.Net.Http.HttpClient.set_BaseAddress(Uri value)
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 36
+2018-05-27 02:16:01,364 [11] ERROR NewsFeed.UI.Manager.LogManager - Unexpected error occured on calling GetRssFeeds in HttpClientManager
+System.InvalidOperationException: This instance has already started one or more requests. Properties can only be modified before sending the first request.
+   at System.Net.Http.HttpClient.CheckDisposedOrStarted()
+   at System.Net.Http.HttpClient.set_BaseAddress(Uri value)
+   at NewsFeed.UI.Manager.HttpClientManager.<GetRssFeeds>d__2.MoveNext() in C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\Manager\HttpClientManager.cs:line 36
