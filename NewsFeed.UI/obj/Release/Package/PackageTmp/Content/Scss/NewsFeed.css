@@ -54,8 +54,8 @@ body {
         background-color: #62ccbc !important; }
   @media only screen and (max-width: 991px) {
     body .modal-dialog {
-      width: 100%;
-      height: 100%; } }
+      width: 100% !important;
+      height: 100% !important; } }
   @media only screen and (max-width: 768px) {
     body .header {
       text-align: center; }
