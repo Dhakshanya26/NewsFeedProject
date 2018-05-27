@@ -211,3 +211,4 @@ C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\obj\Release\Ne
 C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\obj\Release\NewsFeed.UI.csproj.CopyComplete
 C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\obj\Release\NewsFeed.UI.dll
 C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\obj\Release\NewsFeed.UI.pdb
+C:\Users\DhakshyVijay\Desktop\Interview test\NewsFeed\NewsFeed.UI\obj\Release\NewsFeed.UI.csprojResolveAssemblyReference.cache
